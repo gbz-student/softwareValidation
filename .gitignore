@@ -1,0 +1,10 @@
+#folders
+bin/
+Results/
+Backup/
+ApiTests/bin/
+ApiTests/.testresults/
+ApiTests/.variables/
+
+#files
+Pages.g.*
