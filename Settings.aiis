@@ -187,8 +187,20 @@
     "DefaultWPFApplication": null,
     "UseLegacySilverlightFindLogic": false,
     "ProjectGuid": "2703ec0e-74f4-4d8f-aa6f-968fb3e0a740",
-    "SourceControlRepository": null,
-    "IsOnline": false,
+    "SourceControlRepository": {
+      "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitRepositoryInfo",
+      "__value": {
+        "RemotePath": "https://github.com/gbz-student/softwareValidation.git",
+        "ServerInfo": {
+          "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitServerInfo",
+          "__value": {
+            "ServerName": "https://github.com/gbz-student/softwareValidation.git"
+          }
+        },
+        "ServerType": 2
+      }
+    },
+    "IsOnline": true,
     "ProjectLanguage": 2,
     "ProjectReferences": [
       "System",
