@@ -164,7 +164,7 @@
     "SimulateRealTypingByDefault": false,
     "SimulateRealSilverlightUserByDefault": true,
     "DefaultDropDownSelection": 1,
-    "QuickExecutionElementWaitTimeout": 15000,
+    "QuickExecutionElementWaitTimeout": 1000,
     "QuickExecutionClientReadyTimeout": 60000,
     "QcServerUrl": null,
     "QcUserName": "",
@@ -201,7 +201,7 @@
       }
     },
     "IsOnline": true,
-    "ProjectLanguage": 2,
+    "ProjectLanguage": 1,
     "ProjectReferences": [
       "System",
       "System.Core",
@@ -231,6 +231,6 @@
     "BugAddAttachment": true,
     "BugAutoSubmit": false,
     "BugDescriptionMask": "{Description}",
-    "SelectedBrowserOption": 3
+    "SelectedBrowserOption": 4
   }
 }
