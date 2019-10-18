@@ -68,7 +68,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "caecce15-9e0c-4dd1-9f76-e20d8052a0de",
+            "Runtime ID": "e970faaa-4396-43c9-a29a-2028dc11a1c7",
             "Description": "Check 'LeafletBaseLayersRadio' to be 'True'",
             "CustomDescription": null,
             "Step": {
@@ -185,7 +185,133 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "AnnualHeatSupplyCostcz43znhj.tqq",
+            "StepImageKey": "AnnualHeatSupplyCostwq5kgyqm.0yp",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "14c149d9-c4fd-447b-bc8c-d92d09b1e7d1",
+            "Description": "Keyboard (KeyPress) - Enter (1 times) on 'PlaceInputText'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopKeyboardActionDescriptor",
+              "__value": {
+                "focus": true,
+                "KeyPress": "Enter",
+                "HoldFor": 150,
+                "Action": 0,
+                "RepeatCount": 1,
+                "UsejQuery": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://www.hotmapsdev.hevs.ch/map",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Toolbox",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "Toolbox"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "R/Fdl9FjQg5+1u9ZaXE1VWJoW1A=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "PlaceInputText",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=place-input"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=input"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/app-root[1]/htm-map[1]/div[1]/hmt-search-bar[1]/div[1]/input[1]",
+                          "ImageSearchClauses": [
+                            {
+                              "__type": "ArtOfTest.Common.ImageSearchClause",
+                              "__value": {
+                                "Resolution": "1920, 1080",
+                                "BroweserType": 7,
+                                "Image": "80990E172FDE8AF26070D17C9E27BA6FD37DEF7203D5BCE47E069FB26D508648",
+                                "Index": 0,
+                                "MatchThreshold": 90,
+                                "OsVersion": "10.0.17134.0",
+                                "ScreenScale": 1.0,
+                                "ScrollOnImageSearch": null
+                              }
+                            }
+                          ],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 3,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "AnnualHeatSupplyCostlj4uukst.105",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -195,12 +321,12 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "20da9f9c-4de8-496c-8e42-db3deebebcf8",
-            "Description": "Enter text 'Fully' in 'PlaceInputText'",
+            "Description": "Enter text 'Geneve' in 'PlaceInputText'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
               "__value": {
-                "RawText": "Fully",
+                "RawText": "Geneve",
                 "SimulateRealTyping": false,
                 "TypingSpeed": 50,
                 "KeyHoldTime": 100,
@@ -319,7 +445,7 @@
               }
             },
             "Enabled": true,
-            "Order": 3,
+            "Order": 4,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -332,7 +458,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "4359d25d-9fb6-4631-a019-7f5e14cc1576",
+            "Runtime ID": "988340bb-caf2-4992-b19f-de4dd24a1923",
             "Description": "Keyboard (KeyPress) - Enter (1 times) on 'PlaceInputText'",
             "CustomDescription": null,
             "Step": {
@@ -445,11 +571,11 @@
               }
             },
             "Enabled": true,
-            "Order": 4,
+            "Order": 5,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "AnnualHeatSupplyCosta4cons1g.t0y",
+            "StepImageKey": "AnnualHeatSupplyCostyfyxwirr.rpq",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -484,7 +610,7 @@
               }
             },
             "Enabled": true,
-            "Order": 5,
+            "Order": 6,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -607,11 +733,50 @@
               }
             },
             "Enabled": true,
-            "Order": 6,
+            "Order": 7,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
             "StepImageKey": "AnnualHeatSupplyCostmc0akoal.5cu",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "8c2588ab-450e-4eae-aaf9-7e7a781bcee9",
+            "Description": "Wait for '3000' msec.",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SleepActionDescriptor",
+              "__value": {
+                "WaitTime": 3000,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 8,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "AnnualHeatSupplyCostmyrekxc1.l5p",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -724,7 +889,7 @@
               }
             },
             "Enabled": true,
-            "Order": 7,
+            "Order": 9,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -847,7 +1012,7 @@
               }
             },
             "Enabled": true,
-            "Order": 8,
+            "Order": 10,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -964,7 +1129,7 @@
               }
             },
             "Enabled": true,
-            "Order": 9,
+            "Order": 11,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1003,7 +1168,7 @@
               }
             },
             "Enabled": true,
-            "Order": 10,
+            "Order": 12,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1126,7 +1291,7 @@
               }
             },
             "Enabled": true,
-            "Order": 11,
+            "Order": 13,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1139,15 +1304,15 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "fb5fbf12-7f8a-4acd-98f4-fc12a4a5f599",
-            "Description": "Verify 'TextContent' 'Contains' '11 107 250.89 EUR/yr' on 'x1110725089TableCell'",
+            "Runtime ID": "637048aa-7df1-4acc-91b3-60ab6eafd3ba",
+            "Description": "Verify 'TextContent' 'Contains' '266 953.56 MWh' on 'x26695356MWhTableCell'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
               "__value": {
                 "CompareType": 2,
                 "SegmentType": 3,
-                "ExpectedString": "11 107 250.89 EUR/yr",
+                "ExpectedString": "266 953.56 MWh",
                 "DataBindVariableName": null,
                 "Timeout": 30000,
                 "CheckInterval": 500,
@@ -1187,10 +1352,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "gPIV8cKxVn2mXCb3PRaHgQbBhEg=",
+                          "uniqueKey": "NlRKLoxpZsy+Sz2D1cTlai+xmFI=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "x1110725089TableCell",
+                          "Name": "x26695356MWhTableCell",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -1201,7 +1366,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TagIndex=td:29"
+                                        "Clause": "TextContent=266 953.56 MWh"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=td"
                                       }
                                     }
                                   ],
@@ -1211,15 +1382,15 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/app-root[1]/htm-map[1]/div[2]/htm-right-side-panel[1]/div[1]/div[2]/htm-result-manager[1]/ul[2]/li[1]/div[1]/htm-summary-result[1]/span[1]/div[1]/table[1]/tbody[2]/tr[11]/td[2]",
+                          "BackupSearchClause": "/html[1]/body[1]/app-root[1]/htm-map[1]/div[2]/htm-right-side-panel[1]/div[1]/div[2]/htm-result-manager[1]/ul[2]/li[1]/div[1]/htm-summary-result[1]/span[1]/div[1]/table[1]/tbody[2]/tr[2]/td[2]",
                           "ImageSearchClauses": [
                             {
                               "__type": "ArtOfTest.Common.ImageSearchClause",
                               "__value": {
-                                "Resolution": "1366, 768",
+                                "Resolution": "1920, 1080",
                                 "BroweserType": 7,
-                                "Image": "5D6AA92FAE3E63AF3D43CDF3E1982F56C276F01622033794C44D31B2871A33F5",
-                                "Index": 1,
+                                "Image": "EB77D29B1CDCC59F469F1B191D64FAD1F5B84676B12D4E6841D4D4A257AF6B47",
+                                "Index": 0,
                                 "MatchThreshold": 90,
                                 "OsVersion": "10.0.17134.0",
                                 "ScreenScale": 1.0,
@@ -1245,11 +1416,11 @@
               }
             },
             "Enabled": true,
-            "Order": 12,
+            "Order": 14,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "AnnualHeatSupplyCosthiaedi51.4ok",
+            "StepImageKey": "AnnualHeatSupplyCostqlvta2e2.pn5",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200

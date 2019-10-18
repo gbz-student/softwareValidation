@@ -231,6 +231,6 @@
     "BugAddAttachment": true,
     "BugAutoSubmit": false,
     "BugDescriptionMask": "{Description}",
-    "SelectedBrowserOption": 4
+    "SelectedBrowserOption": 0
   }
 }

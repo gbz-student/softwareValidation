@@ -73,8 +73,8 @@
       {
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
-          "Id": "ed3caa71-dc58-4233-9c48-3c64b272120f",
-          "Path": "139 - AnnualHeatSupplyCost.tstest",
+          "Id": "cccd5bca-c74b-45f1-9276-9dcd7849891b",
+          "Path": "CM\\AnnualHeatSupplyCost.tstest",
           "PathType": 0
         }
       },
@@ -82,7 +82,7 @@
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
           "Id": "0a4f8875-a796-4a5f-b899-140b14951859",
-          "Path": "StorageData.tstest",
+          "Path": "ImportLayer\\PersonalLayerImported.tstest",
           "PathType": 0
         }
       },
@@ -90,7 +90,15 @@
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
           "Id": "a13c30d0-8991-4a07-b481-e06307f627c0",
-          "Path": "VizualitionLayer.tstest",
+          "Path": "VisualizationLayer\\AllExistingLayers.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "5d1fea31-9a2d-416e-8de8-8b8798545d7f",
+          "Path": "CM\\ValidationWIndValue_FireFoxEdge.tstest",
           "PathType": 0
         }
       }

@@ -1,0 +1,1917 @@
+{
+  "__type": "Telerik.TestStudio.Load.LoadDesignTest",
+  "__value": {
+    "ControllerConfiguration": {
+      "__type": "Telerik.TestStudio.Load.LoadControllerConfiguration",
+      "__value": {
+        "MachineName": null
+      }
+    },
+    "ProfiledServers": [],
+    "Goals": [
+      {
+        "__type": "Telerik.TestStudio.Load.ViewModels.LoadTestGoalViewModel",
+        "__value": {
+          "MessageInfo": {
+            "__type": "Telerik.TestStudio.Load.Common.GoalsHelpers.GoalMessageInfo",
+            "__value": {
+              "MetricName": "Average Response Time (ms)",
+              "MachineName": "Overall Test",
+              "IsCustomGoal": false,
+              "Threshold": 0.0,
+              "Operator": ">",
+              "PassWhenGoalMet": false,
+              "StopWhenGoalMet": false
+            }
+          },
+          "Name": "Average Response Time (ms)",
+          "MachineName": "Overall Test",
+          "RunTitleDisplay": "Average Response Time (ms) for Overall Test",
+          "RunDescription": "Fail this goal if Average Response Time (ms) is greater than",
+          "ResultsDescription": "You specified to fail this goal if the value is greater than 0. The value reached is {0:0.}.",
+          "Operator": ">",
+          "Threshold": 0.0,
+          "IsEnabled": false,
+          "StopTestWhenGoalMet": false,
+          "PassWhenGoalMet": false,
+          "IsCustomGoal": false,
+          "ExampleText": "Example: \"Does my application respond in less than 3000 milliseconds?\""
+        }
+      },
+      {
+        "__type": "Telerik.TestStudio.Load.ViewModels.LoadTestGoalViewModel",
+        "__value": {
+          "MessageInfo": {
+            "__type": "Telerik.TestStudio.Load.Common.GoalsHelpers.GoalMessageInfo",
+            "__value": {
+              "MetricName": "HTTP Errors/second",
+              "MachineName": "Overall Test",
+              "IsCustomGoal": false,
+              "Threshold": 0.0,
+              "Operator": ">",
+              "PassWhenGoalMet": false,
+              "StopWhenGoalMet": false
+            }
+          },
+          "Name": "HTTP Errors/second",
+          "MachineName": "Overall Test",
+          "RunTitleDisplay": "HTTP Errors/second for Overall Test",
+          "RunDescription": "Fail this goal if HTTP Errors/second is greater than",
+          "ResultsDescription": "You specified to fail this goal if the value is greater than 0. The value reached is {0:0.}.",
+          "Operator": ">",
+          "Threshold": 0.0,
+          "IsEnabled": false,
+          "StopTestWhenGoalMet": false,
+          "PassWhenGoalMet": false,
+          "IsCustomGoal": false,
+          "ExampleText": "Example: \"Does my application throw no more than 10 errors per second?\""
+        }
+      },
+      {
+        "__type": "Telerik.TestStudio.Load.ViewModels.LoadTestGoalViewModel",
+        "__value": {
+          "MessageInfo": {
+            "__type": "Telerik.TestStudio.Load.Common.GoalsHelpers.GoalMessageInfo",
+            "__value": {
+              "MetricName": "Responses Received/second",
+              "MachineName": "Overall Test",
+              "IsCustomGoal": false,
+              "Threshold": 0.0,
+              "Operator": ">",
+              "PassWhenGoalMet": true,
+              "StopWhenGoalMet": false
+            }
+          },
+          "Name": "Responses Received/second",
+          "MachineName": "Overall Test",
+          "RunTitleDisplay": "Responses Received/second for Overall Test",
+          "RunDescription": "Pass this goal if Responses Received/second is greater than",
+          "ResultsDescription": "You specified to pass this goal if the value is greater than 0. The value reached is {0:0.}.",
+          "Operator": ">",
+          "Threshold": 0.0,
+          "IsEnabled": false,
+          "StopTestWhenGoalMet": false,
+          "PassWhenGoalMet": true,
+          "IsCustomGoal": false,
+          "ExampleText": "Example: \"Does my application return more than 100 responses per second?\""
+        }
+      },
+      {
+        "__type": "Telerik.TestStudio.Load.ViewModels.LoadTestGoalViewModel",
+        "__value": {
+          "MessageInfo": {
+            "__type": "Telerik.TestStudio.Load.Common.GoalsHelpers.GoalMessageInfo",
+            "__value": {
+              "MetricName": "Current Virtual Users",
+              "MachineName": "Overall Test",
+              "IsCustomGoal": false,
+              "Threshold": 0.0,
+              "Operator": ">",
+              "PassWhenGoalMet": true,
+              "StopWhenGoalMet": false
+            }
+          },
+          "Name": "Current Virtual Users",
+          "MachineName": "Overall Test",
+          "RunTitleDisplay": "Current Virtual Users for Overall Test",
+          "RunDescription": "Pass this goal if Current Virtual Users is greater than",
+          "ResultsDescription": "You specified to pass this goal if the value is greater than 0. The value reached is {0:0.}.",
+          "Operator": ">",
+          "Threshold": 0.0,
+          "IsEnabled": false,
+          "StopTestWhenGoalMet": false,
+          "PassWhenGoalMet": true,
+          "IsCustomGoal": false,
+          "ExampleText": "Example: \"Does my application handle more than 1000 user requests concurrently?\""
+        }
+      }
+    ],
+    "ControlAndLoadFromThisComputer": false,
+    "ReportingSampleInterval": "00:00:05",
+    "Duration": "00:10:00",
+    "Preferences": {
+      "ForceNewConnection": true,
+      "DelayGC": false
+    },
+    "IgnoreGoalsForXSeconds": 0,
+    "AuthorizationProfiles": [],
+    "IsManual": false,
+    "AutomaticallyDistributeUserGroups": false,
+    "ResourceFilePath": "LoadConnexion.resx",
+    "LoadAgentConfigurations": [],
+    "UserGroups": [
+      {
+        "__type": "Telerik.TestStudio.Load.LoadDesignScenarioGroup",
+        "__value": {
+          "MinimumUsers": 1,
+          "StartUserCount": 1,
+          "MaxUserCount": 1,
+          "UserRampTimeInMinutes": 0.0,
+          "Name": null,
+          "UserScenarios": [
+            {
+              "__type": "Telerik.TestStudio.Load.ConfiguredScenario",
+              "__value": {
+                "IsEnabled": true,
+                "Percentage": 20.0,
+                "ScenarioId": "a79e37fe-9a25-4cef-9972-5c985da3610b"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "UserScenarios": [
+      {
+        "__type": "Telerik.TestStudio.Load.LoadDesignScenario",
+        "__value": {
+          "BindingSources": {},
+          "BindingSourceSteps": {},
+          "Actions": [
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "b05b463f-c1da-404b-91ed-f24a80b140b8",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "unpkg.com",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Mode": "no-cors",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept": "text/css,*/*;q=0.1",
+                      "Sec-Fetch-Site": "cross-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css",
+                    "ID": 47,
+                    "Timestamp": "2019-10-18T11:07:45.5882937+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:45.5882937+02:00",
+                "DisplayHeader": "GET https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "d414dbe6-a324-4642-8b1a-d21787cd95b0",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "unpkg.com",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Mode": "no-cors",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept": "*/*",
+                      "Sec-Fetch-Site": "cross-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js",
+                    "ID": 48,
+                    "Timestamp": "2019-10-18T11:07:45.6773827+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:45.6773827+02:00",
+                "DisplayHeader": "GET https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "f2b5f0a1-3199-4648-ae04-122298dc668c",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "hswexlmmvtuxanw",
+                      "Proxy-Connection": "keep-alive",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept-Encoding": "gzip, deflate"
+                    },
+                    "HttpMethod": "HEAD",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "http://hswexlmmvtuxanw/",
+                    "ID": 49,
+                    "Timestamp": "2019-10-18T11:07:46.3381443+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "http://hswexlmmvtuxanw/",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:46.3381443+02:00",
+                "DisplayHeader": "HEAD http://hswexlmmvtuxanw/",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "e2714ef9-d910-48ae-b78e-ff9679826ebf",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "vonplzlcopxv",
+                      "Proxy-Connection": "keep-alive",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept-Encoding": "gzip, deflate"
+                    },
+                    "HttpMethod": "HEAD",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "http://vonplzlcopxv/",
+                    "ID": 50,
+                    "Timestamp": "2019-10-18T11:07:46.3391015+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "http://vonplzlcopxv/",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:46.3391015+02:00",
+                "DisplayHeader": "HEAD http://vonplzlcopxv/",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "38b14e6b-a442-4e2d-8a7e-8e61fc270c25",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "leqsjxzq",
+                      "Proxy-Connection": "keep-alive",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept-Encoding": "gzip, deflate"
+                    },
+                    "HttpMethod": "HEAD",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "http://leqsjxzq/",
+                    "ID": 51,
+                    "Timestamp": "2019-10-18T11:07:46.3391015+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "http://leqsjxzq/",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:46.3391015+02:00",
+                "DisplayHeader": "HEAD http://leqsjxzq/",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "CgtnY21fY2hhbm5lbA==",
+                    "Guid": "4c60a315-db86-480f-b3cc-cff64544231b",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "clients4.google.com",
+                      "Connection": "keep-alive",
+                      "Content-Length": "13",
+                      "User-Agent": "Chrome WIN 77.0.3865.120 (416d6d8013e9adb6dd33b0c12e7614ff403d1a94-refs/branch-heads/3865@{#884}) channel(stable)",
+                      "Content-Type": "application/octet-stream",
+                      "Sec-Fetch-Site": "none",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "POST",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://clients4.google.com/chrome-sync/experimentstatus",
+                    "ID": 52,
+                    "Timestamp": "2019-10-18T11:07:46.6285365+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://clients4.google.com/chrome-sync/experimentstatus",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:46.6285365+02:00",
+                "DisplayHeader": "POST https://clients4.google.com/chrome-sync/experimentstatus",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "f9da2630-dd19-407b-a647-35eeda4b0065",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "ssl.gstatic.com",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Site": "none",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept-Encoding": "gzip, deflate, br"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://ssl.gstatic.com/safebrowsing/csd/client_model_v5_variation_0.pb",
+                    "ID": 53,
+                    "Timestamp": "2019-10-18T11:07:49.6801142+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://ssl.gstatic.com/safebrowsing/csd/client_model_v5_variation_0.pb",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:49.6801142+02:00",
+                "DisplayHeader": "GET https://ssl.gstatic.com/safebrowsing/csd/client_model_v5_variation_0.pb",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "0c48e135-760c-4574-ba6a-0266d6b63e39",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "ssl.gstatic.com",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Site": "none",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept-Encoding": "gzip, deflate, br"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://ssl.gstatic.com/safebrowsing/csd/client_model_v5_ext_variation_0.pb",
+                    "ID": 54,
+                    "Timestamp": "2019-10-18T11:07:49.6811091+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://ssl.gstatic.com/safebrowsing/csd/client_model_v5_ext_variation_0.pb",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:49.6811091+02:00",
+                "DisplayHeader": "GET https://ssl.gstatic.com/safebrowsing/csd/client_model_v5_ext_variation_0.pb",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "009b89f0-14ea-47c7-9e80-be29702c6561",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "www.google.com",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Mode": "no-cors",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept": "*/*",
+                      "X-Client-Data": "CIy2yQEIo7bJAQjBtskBCKmdygEI4qjKAQjKr8oBCM6wygEI9rTKAQ==",
+                      "Sec-Fetch-Site": "cross-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/map",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://www.google.com/recaptcha/api.js?render=explicit&onload=ng2recaptchaloaded",
+                    "ID": 55,
+                    "Timestamp": "2019-10-18T11:07:50.4914223+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://www.google.com/recaptcha/api.js?render=explicit&onload=ng2recaptchaloaded",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:50.4914223+02:00",
+                "DisplayHeader": "GET https://www.google.com/recaptcha/api.js?render=explicit&onload=ng2recaptchaloaded",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "IiI=",
+                    "Guid": "dc18073b-5731-4c5e-96d3-20540a8a2da6",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "api.hotmapsdev.hevs.ch",
+                      "Connection": "keep-alive",
+                      "Content-Length": "2",
+                      "Access-Control-Allow-Origin": "*",
+                      "Accept": "application/json, text/plain, */*",
+                      "Origin": "https://www.hotmapsdev.hevs.ch",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Sec-Fetch-Mode": "cors",
+                      "Content-Type": "application/json",
+                      "Sec-Fetch-Site": "same-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/map",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "POST",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://api.hotmapsdev.hevs.ch/api/cm/list",
+                    "ID": 56,
+                    "Timestamp": "2019-10-18T11:07:50.9956059+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://api.hotmapsdev.hevs.ch/api/cm/list",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:50.9956059+02:00",
+                "DisplayHeader": "POST https://api.hotmapsdev.hevs.ch/api/cm/list",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "8b3aa9fd-2d12-4d4b-968e-3c982827de80",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "geoserver.hotmapsdev.hevs.ch",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Mode": "no-cors",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+                      "Sec-Fetch-Site": "same-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/map",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=0,5009377.085697314,1252344.2714243277,6261721.357121641",
+                    "ID": 57,
+                    "Timestamp": "2019-10-18T11:07:51.7785384+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=0,5009377.085697314,1252344.2714243277,6261721.357121641",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:51.7785384+02:00",
+                "DisplayHeader": "GET https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=0,5009377.085697314,1252344.2714243277,6261721.357121641",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "98611f68-f150-4934-82f7-0ade57ae7904",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "geoserver.hotmapsdev.hevs.ch",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Mode": "no-cors",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+                      "Sec-Fetch-Site": "same-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/map",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-1252344.2714243277,6261721.357121641,0,7514065.628545967",
+                    "ID": 58,
+                    "Timestamp": "2019-10-18T11:07:52.0582766+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-1252344.2714243277,6261721.357121641,0,7514065.628545967",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:52.0582766+02:00",
+                "DisplayHeader": "GET https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-1252344.2714243277,6261721.357121641,0,7514065.628545967",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "f34dccf9-b893-4186-a0e1-1cb333bbb471",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "geoserver.hotmapsdev.hevs.ch",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Mode": "no-cors",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+                      "Sec-Fetch-Site": "same-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/map",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=0,6261721.357121641,1252344.2714243277,7514065.628545967",
+                    "ID": 59,
+                    "Timestamp": "2019-10-18T11:07:52.1184092+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=0,6261721.357121641,1252344.2714243277,7514065.628545967",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:52.1184092+02:00",
+                "DisplayHeader": "GET https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=0,6261721.357121641,1252344.2714243277,7514065.628545967",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "b9707ce4-1657-4936-838d-4f412b59ff57",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "geoserver.hotmapsdev.hevs.ch",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Mode": "no-cors",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+                      "Sec-Fetch-Site": "same-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/map",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-1252344.2714243277,3757032.8142729844,0,5009377.085697314",
+                    "ID": 60,
+                    "Timestamp": "2019-10-18T11:07:52.1691899+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-1252344.2714243277,3757032.8142729844,0,5009377.085697314",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:52.1691899+02:00",
+                "DisplayHeader": "GET https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-1252344.2714243277,3757032.8142729844,0,5009377.085697314",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "02c36993-7a2c-43ce-9d24-12f9bbb330d2",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "geoserver.hotmapsdev.hevs.ch",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Mode": "no-cors",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+                      "Sec-Fetch-Site": "same-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/map",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=0,3757032.8142729844,1252344.2714243277,5009377.085697314",
+                    "ID": 61,
+                    "Timestamp": "2019-10-18T11:07:52.2026341+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=0,3757032.8142729844,1252344.2714243277,5009377.085697314",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:52.2026341+02:00",
+                "DisplayHeader": "GET https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=0,3757032.8142729844,1252344.2714243277,5009377.085697314",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "6c70d2bf-644c-4f0d-a007-402474475a7c",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "geoserver.hotmapsdev.hevs.ch",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Mode": "no-cors",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+                      "Sec-Fetch-Site": "same-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/map",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-2504688.5428486555,5009377.085697314,-1252344.2714243277,6261721.357121641",
+                    "ID": 62,
+                    "Timestamp": "2019-10-18T11:07:52.2687948+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-2504688.5428486555,5009377.085697314,-1252344.2714243277,6261721.357121641",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:52.2687948+02:00",
+                "DisplayHeader": "GET https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-2504688.5428486555,5009377.085697314,-1252344.2714243277,6261721.357121641",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "40efb8e1-9ca2-405a-8f61-70fd573f55b0",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "geoserver.hotmapsdev.hevs.ch",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Mode": "no-cors",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+                      "Sec-Fetch-Site": "same-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/map",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=1252344.2714243277,5009377.085697314,2504688.5428486555,6261721.357121641",
+                    "ID": 63,
+                    "Timestamp": "2019-10-18T11:07:52.3792992+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=1252344.2714243277,5009377.085697314,2504688.5428486555,6261721.357121641",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:52.3792992+02:00",
+                "DisplayHeader": "GET https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=1252344.2714243277,5009377.085697314,2504688.5428486555,6261721.357121641",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "0ba3f2cf-5ea4-46e5-8372-50d03880318d",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "geoserver.hotmapsdev.hevs.ch",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Mode": "no-cors",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+                      "Sec-Fetch-Site": "same-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/map",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-2504688.5428486555,6261721.357121641,-1252344.2714243277,7514065.628545967",
+                    "ID": 64,
+                    "Timestamp": "2019-10-18T11:07:52.5178106+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-2504688.5428486555,6261721.357121641,-1252344.2714243277,7514065.628545967",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:52.5178106+02:00",
+                "DisplayHeader": "GET https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-2504688.5428486555,6261721.357121641,-1252344.2714243277,7514065.628545967",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "51959ce6-2020-4b4d-9ddf-e11ddd9643a2",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "geoserver.hotmapsdev.hevs.ch",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Mode": "no-cors",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+                      "Sec-Fetch-Site": "same-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/map",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=1252344.2714243277,6261721.357121641,2504688.5428486555,7514065.628545967",
+                    "ID": 65,
+                    "Timestamp": "2019-10-18T11:07:52.5776308+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=1252344.2714243277,6261721.357121641,2504688.5428486555,7514065.628545967",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:52.5776308+02:00",
+                "DisplayHeader": "GET https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=1252344.2714243277,6261721.357121641,2504688.5428486555,7514065.628545967",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "8b57d263-4163-4ba1-ad66-1373aca0f358",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "geoserver.hotmapsdev.hevs.ch",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Mode": "no-cors",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+                      "Sec-Fetch-Site": "same-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/map",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=1252344.2714243277,3757032.8142729844,2504688.5428486555,5009377.085697314",
+                    "ID": 66,
+                    "Timestamp": "2019-10-18T11:07:52.7209278+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=1252344.2714243277,3757032.8142729844,2504688.5428486555,5009377.085697314",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:52.7209278+02:00",
+                "DisplayHeader": "GET https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=1252344.2714243277,3757032.8142729844,2504688.5428486555,5009377.085697314",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "f5e67795-43a8-41b5-be77-d0e2cc2f27d3",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "geoserver.hotmapsdev.hevs.ch",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Mode": "no-cors",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+                      "Sec-Fetch-Site": "same-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/map",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-1252344.2714243277,7514065.628545967,0,8766409.899970293",
+                    "ID": 67,
+                    "Timestamp": "2019-10-18T11:07:52.7924163+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-1252344.2714243277,7514065.628545967,0,8766409.899970293",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:52.7924163+02:00",
+                "DisplayHeader": "GET https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-1252344.2714243277,7514065.628545967,0,8766409.899970293",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "c0aa18a0-25af-41e9-9e3c-ad2c45e196d6",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "www.google.com",
+                      "Connection": "keep-alive",
+                      "Upgrade-Insecure-Requests": "1",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Sec-Fetch-Mode": "nested-navigate",
+                      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+                      "X-Client-Data": "CIy2yQEIo7bJAQjBtskBCKmdygEI4qjKAQjKr8oBCM6wygEI9rTKAQ==",
+                      "Sec-Fetch-Site": "cross-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/map",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Ldb7zcUAAAAADpGmUYGHKDq4HnQ-WqzfqissGje&co=aHR0cHM6Ly93d3cuaG90bWFwc2Rldi5oZXZzLmNoOjQ0Mw..&hl=fr&v=EQY1At-f1G9OIivZUYX73fK0&size=normal&cb=94m1py8gvmlw",
+                    "ID": 68,
+                    "Timestamp": "2019-10-18T11:07:52.92317+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Ldb7zcUAAAAADpGmUYGHKDq4HnQ-WqzfqissGje&co=aHR0cHM6Ly93d3cuaG90bWFwc2Rldi5oZXZzLmNoOjQ0Mw..&hl=fr&v=EQY1At-f1G9OIivZUYX73fK0&size=normal&cb=94m1py8gvmlw",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:52.92317+02:00",
+                "DisplayHeader": "GET https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Ldb7zcUAAAAADpGmUYGHKDq4HnQ-WqzfqissGje&co=aHR0cHM6Ly93d3cuaG90bWFwc2Rldi5oZXZzLmNoOjQ0Mw..&hl=fr&v=EQY1At-f1G9OIivZUYX73fK0&size=normal&cb=94m1py8gvmlw",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "8718f08f-b664-4b3a-bb7d-62961df977ef",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "geoserver.hotmapsdev.hevs.ch",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Mode": "no-cors",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+                      "Sec-Fetch-Site": "same-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/map",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-2504688.5428486555,3757032.8142729844,-1252344.2714243277,5009377.085697314",
+                    "ID": 69,
+                    "Timestamp": "2019-10-18T11:07:52.9309704+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-2504688.5428486555,3757032.8142729844,-1252344.2714243277,5009377.085697314",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:52.9309704+02:00",
+                "DisplayHeader": "GET https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-2504688.5428486555,3757032.8142729844,-1252344.2714243277,5009377.085697314",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "60970760-976a-464e-8cb5-f3e144756495",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "geoserver.hotmapsdev.hevs.ch",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Mode": "no-cors",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+                      "Sec-Fetch-Site": "same-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/map",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=0,7514065.628545967,1252344.2714243277,8766409.899970293",
+                    "ID": 70,
+                    "Timestamp": "2019-10-18T11:07:53.0268428+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=0,7514065.628545967,1252344.2714243277,8766409.899970293",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:53.0268428+02:00",
+                "DisplayHeader": "GET https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=0,7514065.628545967,1252344.2714243277,8766409.899970293",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "8ae344ba-cb0a-4b95-aeb7-3b0a0dadb541",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "www.google.com",
+                      "Connection": "keep-alive",
+                      "Upgrade-Insecure-Requests": "1",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Sec-Fetch-Mode": "nested-navigate",
+                      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+                      "X-Client-Data": "CIy2yQEIo7bJAQjBtskBCKmdygEI4qjKAQjKr8oBCM6wygEI9rTKAQ==",
+                      "Sec-Fetch-Site": "cross-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/map",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Ldb7zcUAAAAADpGmUYGHKDq4HnQ-WqzfqissGje&co=aHR0cHM6Ly93d3cuaG90bWFwc2Rldi5oZXZzLmNoOjQ0Mw..&hl=fr&v=EQY1At-f1G9OIivZUYX73fK0&size=normal&cb=5vjrlbisyjfo",
+                    "ID": 71,
+                    "Timestamp": "2019-10-18T11:07:53.0492383+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Ldb7zcUAAAAADpGmUYGHKDq4HnQ-WqzfqissGje&co=aHR0cHM6Ly93d3cuaG90bWFwc2Rldi5oZXZzLmNoOjQ0Mw..&hl=fr&v=EQY1At-f1G9OIivZUYX73fK0&size=normal&cb=5vjrlbisyjfo",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:53.0492383+02:00",
+                "DisplayHeader": "GET https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Ldb7zcUAAAAADpGmUYGHKDq4HnQ-WqzfqissGje&co=aHR0cHM6Ly93d3cuaG90bWFwc2Rldi5oZXZzLmNoOjQ0Mw..&hl=fr&v=EQY1At-f1G9OIivZUYX73fK0&size=normal&cb=5vjrlbisyjfo",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "87c2fd44-ecae-403d-9afc-d1f3775cf473",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "geoserver.hotmapsdev.hevs.ch",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Mode": "no-cors",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+                      "Sec-Fetch-Site": "same-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/map",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-1252344.2714243277,2504688.542848655,0,3757032.8142729844",
+                    "ID": 72,
+                    "Timestamp": "2019-10-18T11:07:53.1252412+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-1252344.2714243277,2504688.542848655,0,3757032.8142729844",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:53.1252412+02:00",
+                "DisplayHeader": "GET https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-1252344.2714243277,2504688.542848655,0,3757032.8142729844",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "aad3af0d-5928-492c-90c4-d1aa411e3493",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "geoserver.hotmapsdev.hevs.ch",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Mode": "no-cors",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+                      "Sec-Fetch-Site": "same-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/map",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=0,2504688.542848655,1252344.2714243277,3757032.8142729844",
+                    "ID": 73,
+                    "Timestamp": "2019-10-18T11:07:53.1909225+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=0,2504688.542848655,1252344.2714243277,3757032.8142729844",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:53.1909225+02:00",
+                "DisplayHeader": "GET https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=0,2504688.542848655,1252344.2714243277,3757032.8142729844",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "2e66c163-9acd-4207-84e0-720d78572898",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "geoserver.hotmapsdev.hevs.ch",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Mode": "no-cors",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+                      "Sec-Fetch-Site": "same-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/map",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-2504688.5428486555,7514065.628545967,-1252344.2714243277,8766409.899970293",
+                    "ID": 74,
+                    "Timestamp": "2019-10-18T11:07:53.1920846+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-2504688.5428486555,7514065.628545967,-1252344.2714243277,8766409.899970293",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:53.1920846+02:00",
+                "DisplayHeader": "GET https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-2504688.5428486555,7514065.628545967,-1252344.2714243277,8766409.899970293",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "668b004e-1c40-4052-97b8-0e616361e825",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "geoserver.hotmapsdev.hevs.ch",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Mode": "no-cors",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+                      "Sec-Fetch-Site": "same-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/map",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-3757032.814272984,5009377.085697314,-2504688.5428486555,6261721.357121641",
+                    "ID": 75,
+                    "Timestamp": "2019-10-18T11:07:53.3185782+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-3757032.814272984,5009377.085697314,-2504688.5428486555,6261721.357121641",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:53.3185782+02:00",
+                "DisplayHeader": "GET https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-3757032.814272984,5009377.085697314,-2504688.5428486555,6261721.357121641",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "0bdb392b-1be8-4a55-b4b9-6f812d07af62",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "geoserver.hotmapsdev.hevs.ch",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Mode": "no-cors",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+                      "Sec-Fetch-Site": "same-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/map",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=2504688.5428486555,5009377.085697314,3757032.814272984,6261721.357121641",
+                    "ID": 76,
+                    "Timestamp": "2019-10-18T11:07:53.3782414+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=2504688.5428486555,5009377.085697314,3757032.814272984,6261721.357121641",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:53.3782414+02:00",
+                "DisplayHeader": "GET https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=2504688.5428486555,5009377.085697314,3757032.814272984,6261721.357121641",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "b9df8f16-08c7-4ec6-9947-5644ff41246e",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "geoserver.hotmapsdev.hevs.ch",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Mode": "no-cors",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+                      "Sec-Fetch-Site": "same-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/map",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=1252344.2714243277,7514065.628545967,2504688.5428486555,8766409.899970293",
+                    "ID": 77,
+                    "Timestamp": "2019-10-18T11:07:53.3996425+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=1252344.2714243277,7514065.628545967,2504688.5428486555,8766409.899970293",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:53.3996425+02:00",
+                "DisplayHeader": "GET https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=1252344.2714243277,7514065.628545967,2504688.5428486555,8766409.899970293",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "8d47ffda-8229-4f70-a38c-3dc3f1f92a33",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "geoserver.hotmapsdev.hevs.ch",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Mode": "no-cors",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+                      "Sec-Fetch-Site": "same-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/map",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-2504688.5428486555,2504688.542848655,-1252344.2714243277,3757032.8142729844",
+                    "ID": 78,
+                    "Timestamp": "2019-10-18T11:07:53.4240373+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-2504688.5428486555,2504688.542848655,-1252344.2714243277,3757032.8142729844",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:53.4240373+02:00",
+                "DisplayHeader": "GET https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-2504688.5428486555,2504688.542848655,-1252344.2714243277,3757032.8142729844",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "aea2ab0c-2fba-4cf3-86c7-1c88801009d2",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "geoserver.hotmapsdev.hevs.ch",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Mode": "no-cors",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+                      "Sec-Fetch-Site": "same-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/map",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=1252344.2714243277,2504688.542848655,2504688.5428486555,3757032.8142729844",
+                    "ID": 79,
+                    "Timestamp": "2019-10-18T11:07:53.5393513+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=1252344.2714243277,2504688.542848655,2504688.5428486555,3757032.8142729844",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:53.5393513+02:00",
+                "DisplayHeader": "GET https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=1252344.2714243277,2504688.542848655,2504688.5428486555,3757032.8142729844",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "8e8cf606-8918-438e-9f99-3e6c9bc45b84",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "geoserver.hotmapsdev.hevs.ch",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Mode": "no-cors",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+                      "Sec-Fetch-Site": "same-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/map",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-3757032.814272984,6261721.357121641,-2504688.5428486555,7514065.628545967",
+                    "ID": 80,
+                    "Timestamp": "2019-10-18T11:07:53.5706648+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-3757032.814272984,6261721.357121641,-2504688.5428486555,7514065.628545967",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:53.5706648+02:00",
+                "DisplayHeader": "GET https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-3757032.814272984,6261721.357121641,-2504688.5428486555,7514065.628545967",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "4c9f743f-c4a0-4d21-b404-609b15cb824f",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "www.google.com",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Mode": "same-origin",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept": "*/*",
+                      "X-Client-Data": "CIy2yQEIo7bJAQjBtskBCKmdygEI4qjKAQjKr8oBCM6wygEI9rTKAQ==",
+                      "Sec-Fetch-Site": "same-origin",
+                      "Referer": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Ldb7zcUAAAAADpGmUYGHKDq4HnQ-WqzfqissGje&co=aHR0cHM6Ly93d3cuaG90bWFwc2Rldi5oZXZzLmNoOjQ0Mw..&hl=fr&v=EQY1At-f1G9OIivZUYX73fK0&size=normal&cb=94m1py8gvmlw",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://www.google.com/recaptcha/api2/webworker.js?hl=fr&v=EQY1At-f1G9OIivZUYX73fK0",
+                    "ID": 81,
+                    "Timestamp": "2019-10-18T11:07:53.6759868+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://www.google.com/recaptcha/api2/webworker.js?hl=fr&v=EQY1At-f1G9OIivZUYX73fK0",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:53.6759868+02:00",
+                "DisplayHeader": "GET https://www.google.com/recaptcha/api2/webworker.js?hl=fr&v=EQY1At-f1G9OIivZUYX73fK0",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "01d4e978-b318-4a80-af2b-f775b738dfa6",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "geoserver.hotmapsdev.hevs.ch",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Mode": "no-cors",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+                      "Sec-Fetch-Site": "same-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/map",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=2504688.5428486555,6261721.357121641,3757032.814272984,7514065.628545967",
+                    "ID": 82,
+                    "Timestamp": "2019-10-18T11:07:53.8302959+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=2504688.5428486555,6261721.357121641,3757032.814272984,7514065.628545967",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:53.8302959+02:00",
+                "DisplayHeader": "GET https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=2504688.5428486555,6261721.357121641,3757032.814272984,7514065.628545967",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "60c1bfa5-83da-46bb-a7dd-25b3217dee55",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "geoserver.hotmapsdev.hevs.ch",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Mode": "no-cors",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+                      "Sec-Fetch-Site": "same-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/map",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-3757032.814272984,3757032.8142729844,-2504688.5428486555,5009377.085697314",
+                    "ID": 83,
+                    "Timestamp": "2019-10-18T11:07:53.8332351+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-3757032.814272984,3757032.8142729844,-2504688.5428486555,5009377.085697314",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:53.8332351+02:00",
+                "DisplayHeader": "GET https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-3757032.814272984,3757032.8142729844,-2504688.5428486555,5009377.085697314",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "28a3f909-fb52-4e85-9b9c-a85a1ffc4072",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "www.google.com",
+                      "Connection": "keep-alive",
+                      "Upgrade-Insecure-Requests": "1",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Sec-Fetch-Mode": "nested-navigate",
+                      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+                      "X-Client-Data": "CIy2yQEIo7bJAQjBtskBCKmdygEI4qjKAQjKr8oBCM6wygEI9rTKAQ==",
+                      "Sec-Fetch-Site": "cross-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/map",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://www.google.com/recaptcha/api2/bframe?hl=fr&v=EQY1At-f1G9OIivZUYX73fK0&k=6Ldb7zcUAAAAADpGmUYGHKDq4HnQ-WqzfqissGje&cb=kmxlh1pkt176",
+                    "ID": 84,
+                    "Timestamp": "2019-10-18T11:07:53.8401319+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://www.google.com/recaptcha/api2/bframe?hl=fr&v=EQY1At-f1G9OIivZUYX73fK0&k=6Ldb7zcUAAAAADpGmUYGHKDq4HnQ-WqzfqissGje&cb=kmxlh1pkt176",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:53.8401319+02:00",
+                "DisplayHeader": "GET https://www.google.com/recaptcha/api2/bframe?hl=fr&v=EQY1At-f1G9OIivZUYX73fK0&k=6Ldb7zcUAAAAADpGmUYGHKDq4HnQ-WqzfqissGje&cb=kmxlh1pkt176",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "cdb849a1-66ec-4afa-a881-47e097ebf55d",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "geoserver.hotmapsdev.hevs.ch",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Mode": "no-cors",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+                      "Sec-Fetch-Site": "same-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/map",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=2504688.5428486555,3757032.8142729844,3757032.814272984,5009377.085697314",
+                    "ID": 85,
+                    "Timestamp": "2019-10-18T11:07:53.8449207+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=2504688.5428486555,3757032.8142729844,3757032.814272984,5009377.085697314",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:53.8449207+02:00",
+                "DisplayHeader": "GET https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=2504688.5428486555,3757032.8142729844,3757032.814272984,5009377.085697314",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "24b4109e-774e-4ff9-a09e-6f2188cf5e53",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "geoserver.hotmapsdev.hevs.ch",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Mode": "no-cors",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+                      "Sec-Fetch-Site": "same-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/map",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-3757032.814272984,7514065.628545967,-2504688.5428486555,8766409.899970293",
+                    "ID": 86,
+                    "Timestamp": "2019-10-18T11:07:53.8460197+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-3757032.814272984,7514065.628545967,-2504688.5428486555,8766409.899970293",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:53.8460197+02:00",
+                "DisplayHeader": "GET https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-3757032.814272984,7514065.628545967,-2504688.5428486555,8766409.899970293",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "23624436-8298-4ac0-9a18-7babd8bfb6a1",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "geoserver.hotmapsdev.hevs.ch",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Mode": "no-cors",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+                      "Sec-Fetch-Site": "same-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/map",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=2504688.5428486555,7514065.628545967,3757032.814272984,8766409.899970293",
+                    "ID": 87,
+                    "Timestamp": "2019-10-18T11:07:53.9728581+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=2504688.5428486555,7514065.628545967,3757032.814272984,8766409.899970293",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:53.9728581+02:00",
+                "DisplayHeader": "GET https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=2504688.5428486555,7514065.628545967,3757032.814272984,8766409.899970293",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "3689acdb-3da5-4945-bcc9-7ee8d53c1a51",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "geoserver.hotmapsdev.hevs.ch",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Mode": "no-cors",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+                      "Sec-Fetch-Site": "same-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/map",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-3757032.814272984,2504688.542848655,-2504688.5428486555,3757032.8142729844",
+                    "ID": 88,
+                    "Timestamp": "2019-10-18T11:07:53.9885646+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-3757032.814272984,2504688.542848655,-2504688.5428486555,3757032.8142729844",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:53.9885646+02:00",
+                "DisplayHeader": "GET https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-3757032.814272984,2504688.542848655,-2504688.5428486555,3757032.8142729844",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "4513e7f1-8e78-4276-aae3-77cc6e033a89",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "www.google.com",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Mode": "same-origin",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept": "*/*",
+                      "X-Client-Data": "CIy2yQEIo7bJAQjBtskBCKmdygEI4qjKAQjKr8oBCM6wygEI9rTKAQ==",
+                      "Sec-Fetch-Site": "same-origin",
+                      "Referer": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Ldb7zcUAAAAADpGmUYGHKDq4HnQ-WqzfqissGje&co=aHR0cHM6Ly93d3cuaG90bWFwc2Rldi5oZXZzLmNoOjQ0Mw..&hl=fr&v=EQY1At-f1G9OIivZUYX73fK0&size=normal&cb=5vjrlbisyjfo",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://www.google.com/recaptcha/api2/webworker.js?hl=fr&v=EQY1At-f1G9OIivZUYX73fK0",
+                    "ID": 89,
+                    "Timestamp": "2019-10-18T11:07:54.0607801+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://www.google.com/recaptcha/api2/webworker.js?hl=fr&v=EQY1At-f1G9OIivZUYX73fK0",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:54.0607801+02:00",
+                "DisplayHeader": "GET https://www.google.com/recaptcha/api2/webworker.js?hl=fr&v=EQY1At-f1G9OIivZUYX73fK0",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "2ef253ed-9f3a-4c0a-84c8-16623fb840b8",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "geoserver.hotmapsdev.hevs.ch",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Mode": "no-cors",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+                      "Sec-Fetch-Site": "same-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/map",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=2504688.5428486555,2504688.542848655,3757032.814272984,3757032.8142729844",
+                    "ID": 90,
+                    "Timestamp": "2019-10-18T11:07:54.3732412+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=2504688.5428486555,2504688.542848655,3757032.814272984,3757032.8142729844",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:54.3732412+02:00",
+                "DisplayHeader": "GET https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=2504688.5428486555,2504688.542848655,3757032.814272984,3757032.8142729844",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "30b456f0-5d80-4f1b-8f97-fa176e26577e",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "geoserver.hotmapsdev.hevs.ch",
+                      "Connection": "keep-alive",
+                      "Sec-Fetch-Mode": "no-cors",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+                      "Sec-Fetch-Site": "same-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/map",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-1252344.2714243277,5009377.085697314,0,6261721.357121641",
+                    "ID": 91,
+                    "Timestamp": "2019-10-18T11:07:54.7482797+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-1252344.2714243277,5009377.085697314,0,6261721.357121641",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:54.7482797+02:00",
+                "DisplayHeader": "GET https://geoserver.hotmapsdev.hevs.ch/geoserver/hotmaps/wms?service=WMS&request=GetMap&layers=hotmaps%3Aheat_tot_curr_density&styles=&format=image%2Fpng8&transparent=true&version=1.3.0&height=256&width=256&crs=EPSG%3A3857&bbox=-1252344.2714243277,5009377.085697314,0,6261721.357121641",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "",
+                    "Guid": "945a752c-d3df-4d79-9930-8d7712749ac4",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "www.google.com",
+                      "Connection": "keep-alive",
+                      "Upgrade-Insecure-Requests": "1",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+                      "Sec-Fetch-Mode": "nested-navigate",
+                      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+                      "X-Client-Data": "CIy2yQEIo7bJAQjBtskBCKmdygEI4qjKAQjKr8oBCM6wygEI9rTKAQ==",
+                      "Sec-Fetch-Site": "cross-site",
+                      "Referer": "https://www.hotmapsdev.hevs.ch/map",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+                    },
+                    "HttpMethod": "GET",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://www.google.com/recaptcha/api2/bframe?hl=fr&v=EQY1At-f1G9OIivZUYX73fK0&k=6Ldb7zcUAAAAADpGmUYGHKDq4HnQ-WqzfqissGje&cb=pwwitorgubba",
+                    "ID": 92,
+                    "Timestamp": "2019-10-18T11:07:55.1447837+02:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://www.google.com/recaptcha/api2/bframe?hl=fr&v=EQY1At-f1G9OIivZUYX73fK0&k=6Ldb7zcUAAAAADpGmUYGHKDq4HnQ-WqzfqissGje&cb=pwwitorgubba",
+                "DataBindings": null,
+                "RecordedStartTime": "2019-10-18T11:07:55.1447837+02:00",
+                "DisplayHeader": "GET https://www.google.com/recaptcha/api2/bframe?hl=fr&v=EQY1At-f1G9OIivZUYX73fK0&k=6Ldb7zcUAAAAADpGmUYGHKDq4HnQ-WqzfqissGje&cb=pwwitorgubba",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.ThinkTimeScenarioStep",
+              "__value": {
+                "RecordedStartTime": "0001-01-01T00:00:00",
+                "DisplayHeader": "Think time",
+                "Duration": "00:00:10",
+                "DurationInSeconds": 10.0,
+                "Deviation": "00:00:03",
+                "DeviationInSeconds": 3.0,
+                "IsEnabled": true
+              }
+            }
+          ],
+          "Description": "Traffic captured by running Connection dev in Chrome(18.10.2019 11:07:59)",
+          "Guid": "a79e37fe-9a25-4cef-9972-5c985da3610b",
+          "WindowsAuthenticationProfileId": null,
+          "FunctionalTestBrowser": 7,
+          "FunctionalTestPath": "Connection dev.tstest",
+          "Name": "Connection dev"
+        }
+      }
+    ],
+    "LastView": 4,
+    "TestLinks": [],
+    "DataInfo": {
+      "__type": "ArtOfTest.Common.Design.Data.DataInfo",
+      "__value": {
+        "ConnectionString": "",
+        "DefaultToGrid": true,
+        "DataRange": "",
+        "LoadRecordsCount": null,
+        "DataTableName": "",
+        "DataProvider": "",
+        "DataEnabled": true,
+        "HasBuiltinGrid": false,
+        "DataType": 4,
+        "BuiltInData": null,
+        "BuiltInDocumentKey": null,
+        "TSQL": ""
+      }
+    },
+    "Description": "",
+    "Name": "LoadConnexion",
+    "Owner": "",
+    "Path": "LoadConnexion.tstest",
+    "Priority": 0,
+    "TestType": 3,
+    "UniqueId": "6e356026-6a68-4910-9931-b65b871564b9",
+    "Id": "6e356026-6a68-4910-9931-b65b871564b9",
+    "ProjectId": "2703ec0e-74f4-4d8f-aa6f-968fb3e0a740",
+    "Version": 200,
+    "ExecutionDescription": "LoadConnexion for 10 minutes with 1 users"
+  }
+}
