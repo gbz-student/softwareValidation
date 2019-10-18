@@ -1,7 +1,7 @@
 {
   "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.ProfilerMetadataConfigurationSet",
   "__value": {
-    "_bFirstTimeUserConfigurationComplete": false,
+    "_bFirstTimeUserConfigurationComplete": true,
     "Metadata": {
       "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.ProfilerResultsMetadata",
       "__value": {

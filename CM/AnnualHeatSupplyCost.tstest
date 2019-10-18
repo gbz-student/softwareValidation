@@ -345,9 +345,9 @@
                 "RepeatCount": 1,
                 "UsejQuery": false,
                 "ClosesBrowser": false,
-                "AjaxTimeout": 1500,
+                "AjaxTimeout": 0,
                 "Pause": 0,
-                "WaitOnElementsTimeout": 1000,
+                "WaitOnElementsTimeout": 1500,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": true,
                 "RunsAgainstVersion": "",
@@ -450,6 +450,45 @@
             "StepState": 0,
             "ContinueOnFailure": false,
             "StepImageKey": "AnnualHeatSupplyCosta4cons1g.t0y",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "b7b4e521-bb0a-4845-9ec0-af5ccaac7193",
+            "Description": "Wait for '3000' msec.",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SleepActionDescriptor",
+              "__value": {
+                "WaitTime": 3000,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 5,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "AnnualHeatSupplyCostx5olvyqv.jmd",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -568,7 +607,7 @@
               }
             },
             "Enabled": true,
-            "Order": 5,
+            "Order": 6,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -685,7 +724,7 @@
               }
             },
             "Enabled": true,
-            "Order": 6,
+            "Order": 7,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -808,7 +847,7 @@
               }
             },
             "Enabled": true,
-            "Order": 7,
+            "Order": 8,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -925,7 +964,7 @@
               }
             },
             "Enabled": true,
-            "Order": 8,
+            "Order": 9,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -938,24 +977,17 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "7ef017ae-63ff-4cec-add6-a84fee1a6e9e",
-            "Description": "Keyboard (KeyPress) - Tab (2 times) on 'CMDistrictButtonTag1'",
+            "Runtime ID": "9c751e2f-3584-4061-a6a0-9ee8fe5fb94c",
+            "Description": "Wait for '3000' msec.",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopKeyboardActionDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SleepActionDescriptor",
               "__value": {
-                "focus": true,
-                "KeyPress": "Tab",
-                "HoldFor": 150,
-                "Action": 0,
-                "RepeatCount": 2,
-                "UsejQuery": false,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
+                "WaitTime": 3000,
+                "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,
                 "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
+                "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
@@ -963,93 +995,19 @@
                     "ConstraintValues": {}
                   }
                 },
-                "Elements": {
-                  "target": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "target",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "https://www.hotmapsdev.hevs.ch/map",
-                          "Query": "",
-                          "BaseUrl": "",
-                          "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Toolbox",
-                          "CompareMode": 2,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "Toolbox"
-                        }
-                      },
-                      "Frame": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "j6NKPZ7wE6O3LV05aNGPTb7ZZ4w=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "CMDistrictButtonTag1",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "TagIndex=button:56"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": "/html[1]/body[1]/app-root[1]/htm-map[1]/div[2]/htm-left-side-panel[1]/div[1]/div[2]/ul[2]/li[2]/htm-cms[1]/div[1]/div[1]/span[1]/ul[2]/li[1]/div[1]/span[2]/div[1]/div[1]/button[1]",
-                          "ImageSearchClauses": [
-                            {
-                              "__type": "ArtOfTest.Common.ImageSearchClause",
-                              "__value": {
-                                "Resolution": "1366, 768",
-                                "BroweserType": 2,
-                                "Image": "97DD582E1C35CA1FE6604D8D68EC8FADA50E816AB3EBC4E99732B52A3FA08E2A",
-                                "Index": 0,
-                                "MatchThreshold": 90,
-                                "OsVersion": "10.0.17134.0",
-                                "ScreenScale": 1.0,
-                                "ScrollOnImageSearch": null
-                              }
-                            }
-                          ],
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlButton",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
+                "Elements": {},
                 "StepType": 4,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": false,
-            "Order": 9,
+            "Enabled": true,
+            "Order": 10,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "AnnualHeatSupplyCost31wkjiea.0cw",
+            "StepImageKey": "AnnualHeatSupplyCostawkzyffg.he2",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -1168,7 +1126,7 @@
               }
             },
             "Enabled": true,
-            "Order": 10,
+            "Order": 11,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1287,7 +1245,7 @@
               }
             },
             "Enabled": true,
-            "Order": 11,
+            "Order": 12,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
